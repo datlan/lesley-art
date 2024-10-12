@@ -9,3 +9,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.featurette
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
