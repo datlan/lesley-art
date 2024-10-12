@@ -1,0 +1,11 @@
+.large-image-cell
+{
+	padding-bottom: 30px;
+}
+
+.carousel-inner .item
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,203 @@
+*{margin:0;padding:0}
+body{padding:20px;background:white;text-align:center;color:black;font-family:helvetica,sans-serif;font-size: .9em;line-height: 140%}
+h1{font-size: 120%;}
+/*h1{font:bold 120%;letter-spacing:3px;text-transform:uppercase;margin-bottom: 10px}*/
+/*h1,h2{font:bold 110%;letter-spacing:3px;text-transform:uppercase;}*/
+a{color:#3300CC;text-decoration:none;outline:none;}
+a img{border: 0 none;}
+a:hover{color:#67a;}
+.caption{font-style:italic;color:#887;}
+/*	.demo{position:relative;margin-top:2em;}*/
+.gallery_demo{width:702px;margin:0 auto;}
+.gallery_demo li{width:68px;height:50px;border:3px double #111;margin: 0 2px;background:#000;}
+.gallery_demo li div{left:240px}
+.gallery_demo li div .caption{font:italic 0.7em/1.4}
+
+#scroller
+{
+	width:700px; 
+	height:110px;
+}
+
+#images
+{
+	height:90px; 
+	white-space:nowrap;
+}
+
+/* #main_image{margin:0 auto 60px auto;height:438px;width:700px;background:black;} */
+#main_image{margin:0 auto 60px auto;height:438px;width:700px;}
+#main_image img{margin-bottom:10px;}
+
+.nav{padding-top:15px;clear:both;font-size:80%;letter-spacing:3px;text-transform:uppercase;}
+
+.info{text-align:left;width:700px;margin:30px auto;border-top:1px dotted #221;padding-top:30px;}
+.info p{margin-top:1.6em;}
+
+.titleimage
+{
+	margin-bottom: 30px;
+}
+
+.subheading-image
+{
+	display: block;
+	margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#head-bar
+{
+	display: inline; 
+}
+#nav 
+{
+	margin:0;
+	padding:0;
+	float: right;
+	list-style-type:none;
+	margin-top: 15px;
+	margin-right: 200px;
+/*	margin-top: -40px;
+*/
+}
+#nav li 
+{
+	display:inline;
+	padding:10px;
+	margin:0;
+	text-transform: uppercase;
+	font-size:12px;
+	letter-spacing:2px;
+}
+
+a:link, a:visited, a:active
+{
+	text-decoration: none;
+}
+
+#scroller{margin:0 auto 10px auto;}
+
+	#bottomcontainer {
+		clear:both;
+		float:left;
+		width:100%;			/* width of whole page */
+		overflow:hidden;		/* This chops off any overhanging divs */
+	}
+	/* common column settings */
+	#bottombox 
+	{
+		text-align: left;
+		float:left;
+		width:100%;
+		position:relative;
+	}
+	#bottomboxleft,
+	#bottomboxright{
+		float:left;
+		position:relative;
+		padding:0 0 1em 0;
+		overflow:hidden;
+	}
+	#bottomcontainer #bottombox {
+		right:50%;			/* right column width */
+		background:#fff;		/* left column background colour */
+	}
+	
+	#bottomcontainer #bottomboxleft {
+		width:46%;			/* left column content width (column width minus left and right padding) */
+		left:52%;			/* right column width plus left column left padding */
+		margin-right: -20px;
+	}
+	#bottomcontainer #bottomboxright {
+		width:46%;			/* right column content width (column width minus left and right padding) */
+		left:56%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+		padding-left: 30px;
+		border-left: 1px solid #CCCCCC;
+	}
+	
+	#bottombox h3 { margin: 0 0 .5em 0; text-align: center;}
+	
+	#footer {
+		clear:both;
+		float:left;
+		width:100%;
+		border-top:1px solid #CCCCCC;
+		font-size: small; 
+/*		background-color: #333; */
+/*		color: white; */
+		margin-top: 10px;
+	}
+	#footer p {
+		padding:10px;
+		margin:0;
+	}
+
+
+#page-container {
+	min-width: 600px;
+	text-align: left;
+}
+
+p{margin-top:1.6em;}
+
+#right-col 
+{
+	width: 200px;
+	float: right;
+	margin-right: 60px;
+}
+
+#sidebar
+{
+	list-style-type:none;
+	margin-left: 20px;
+}
+
+#sidebar li 
+{
+	padding:20px;
+	margin:0;
+}
+
+#left-col{
+	margin-left: 60px;
+}
+
+.side-image 
+{
+	height: 150px;
+	width: 175px;
+}
+
+.eventlist
+{
+	list-style-type:none;
+}
+
+.eventlist li
+{
+	padding-top: 10px;
+}
+
+.eventheader
+{
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#contact
+{
+	margin-top: 25px;
+}
+
+.ValidateMessage
+{
+	color: Red;
+}
+
+.ErrorPanelText
+{
+	color: Red;
+}
